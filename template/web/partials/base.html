@@ -1,0 +1,75 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="{% static 'web/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <link href="{% static 'web/css/bootstrap-icons.css' %}" rel="stylesheet">
+
+    <link href="{% static 'web/css/all.min.css' %}" rel="stylesheet">
+
+    <link href="{% static 'web/css/fontawesome.min.css' %}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'web/css/swiper-bundle.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'web/css/magnific-popup.css' %}">
+
+    <link rel="stylesheet" href="{% static 'web/css/animate.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'web/css/style.css' %}">
+
+    <title>Stunsky</title>
+</head>
+
+<body>
+
+
+
+    {% include 'web/partials/header.html' %}
+
+
+    
+
+
+
+        {% block content %}
+		{% endblock %}
+       
+
+
+        
+
+
+
+
+
+    <!-- <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
+    <script src="{% static 'web/js/jquery-3.6.0.min.js' %}"></script>
+
+    <script src="{% static 'web/js/popper.min.js' %}"></script>
+    <script src="{% static 'web/js/bootstrap.min.js' %}"></script>
+
+    <script src="{% static 'web/js/swiper-bundle.min.js' %}"></script>
+
+    <script src="{% static 'web/js/waypoints.min.js' %}"></script>
+
+    <script src="{% static 'web/js/jquery.counterup.min.js' %}"></script>
+
+    <script src="{% static 'web/js/isotope.pkgd.min.js' %}"></script>
+
+    <script src="{% static 'web/js/jquery.magnific-popup.min.js' %}"></script>
+
+    <script src="{% static 'web/js/wow.min.js' %}"></script>
+
+    <script src="{% static 'web/js/particles.min.js' %}"></script>
+    <script src="{% static 'web/js/app.js' %}"></script>
+
+    <script src="{% static 'web/js/custom.js' %}"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+{% load static %}
+<header class="header-area position_top">
+    <div class="site-logo">
+        <div class="logo">
+            <a href="{% url 'web:index' %}"><img src="{% static 'web/img/logo.svg' %}" alt="image"></a>
+        </div>
+    </div>
+    <div class="main-menu">
+        <nav class="main-nav">
+            <div class="mobile-menu-logo">
+                <a href="{% url 'web:index' %}"><img src="{% static 'web/img/logo-dark.svg' %}" alt=""></a>
+                <div class="remove">
+                    <i class="bi bi-plus-lg"></i>
+                </div>
+            </div>
+            <ul>
+                
+                <li><a href="{% url 'web:index' %}">Home</a></li>
+                <li><a href="{% url 'web:about' %}">About</a></li>
+                <li><a href="{% url 'web:service' %}">Services</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="{% url 'web:updates' %}">Updates</a></li>
+                <li><a href="{% url 'web:portfolio' %}">Portfolio</a></li>
+                <li><a href="{% url 'web:contact' %}">Contact Us</a></li>
+            </ul>
+            <div class="get-qoute d-flex justify-content-center d-lg-none d-block pt-50">
+                <div class="cmn-btn">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <a href="{% url 'web:enquiry' %}">Get A Quote</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="nav-right">
+        <div class="get-qoute">
+            <div class="cmn-btn">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <a href="{% url 'web:enquiry' %}">Get A Quote</a>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <a href="javascript:void(0)" class="cross-btn">
+                <span class="cross-top"></span>
+                <span class="cross-middle"></span>
+                <span class="cross-bottom"></span>
+            </a>
+        </div>
+    </div>
+</header>

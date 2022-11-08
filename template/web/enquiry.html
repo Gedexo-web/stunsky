@@ -1,0 +1,79 @@
+{% extends 'web/partials/base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+<main class="creasoft-wrap">
+
+
+
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-wrapper">
+                        <div class="breadcrumb-cnt">
+                            <h1>Enquiry</h1>
+                            <span><a href="/">Home</a><i class="bi bi-arrow-right"></i>Enquiry</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact-area sec-mar">
+        <div class="container getin-touch">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <div class="contact-left">
+                        <div class="b-gallery">
+                            <img src="{% static 'web/img/hero-vector.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="contact-form wow ">
+                        <h3>Have Any Questions</h3>
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" placeholder="Enter your name">
+                                </div>
+                                <div class="col-md-6">
+
+                                    <select class="form-control">
+                                        <option selected disabled>Choose A Service</option>
+                                        <option value="web service">web service</option>
+                                        <option value="Ui Ux">Ui Ux</option>
+                                        <option value="web Development">web Development</option>
+                                        <option value="seo">seo</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="email" placeholder="Enter your email">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="subject" placeholder="Subject">
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                                    <input type="submit" value="Send Message">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+           
+        </div>
+    </section>
+    {% include 'web/partials/footer.html' %}
+
+</main>
+{% endblock %}

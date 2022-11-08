@@ -1,0 +1,97 @@
+{% extends 'web/partials/base.html' %}
+{% load static %}
+{% block content %}
+<main class="creasoft-wrap">
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-wrapper">
+                        <div class="breadcrumb-cnt">
+                            <h1>Service</h1>
+                            <span><a href="/">Home</a><i class="bi bi-arrow-right"></i>Service</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services-grid layout2 sec-mar">
+        <div class="container">
+            <div class="title-wrap">
+                <div class="sec-title ">
+                    <span>Our Solutions</span>
+                    <h2>Services</h2>
+                    <p>Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla porttitor. on Duis a
+                        orci nunc. Suspendisse ac convallis sapien, quis commodo libero.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+       
+                <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <a href="{% url 'web:servicesingle' %}">
+                        <div class="single-service">
+                            <h4>Web Design</h4>
+                            <p>Integer purus odio, placerat nec rhoncu in, ullamcorper nec dolor.</p>
+    
+                        </div>
+                    </a>
+                   
+                </div>
+                <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <a href="{% url 'web:servicesingle' %}">
+                        <div class="single-service">
+                            <h4>Web Design</h4>
+                            <p>Integer purus odio, placerat nec rhoncu in, ullamcorper nec dolor.</p>
+    
+                        </div>
+                    </a>
+                   
+                </div><div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <a href="{% url 'web:servicesingle' %}">
+                        <div class="single-service">
+                            <h4>Web Design</h4>
+                            <p>Integer purus odio, placerat nec rhoncu in, ullamcorper nec dolor.</p>
+    
+                        </div>
+                    </a>
+                   
+                </div><div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <a href="{% url 'web:servicesingle' %}">
+                        <div class="single-service">
+                            <h4>Web Design</h4>
+                            <p>Integer purus odio, placerat nec rhoncu in, ullamcorper nec dolor.</p>
+    
+                        </div>
+                    </a>
+                   
+                </div><div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <a href="{% url 'web:servicesingle' %}">
+                        <div class="single-service">
+                            <h4>Web Design</h4>
+                            <p>Integer purus odio, placerat nec rhoncu in, ullamcorper nec dolor.</p>
+    
+                        </div>
+                    </a>
+                   
+                </div><div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <a href="{% url 'web:servicesingle' %}">
+                        <div class="single-service">
+                            <h4>Web Design</h4>
+                            <p>Integer purus odio, placerat nec rhoncu in, ullamcorper nec dolor.</p>
+    
+                        </div>
+                    </a>
+                   
+                </div>
+              
+            </div>
+        </div>
+    </section>
+    {% include 'web/partials/footer.html' %}
+
+</main>
+{% endblock %}

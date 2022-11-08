@@ -1,0 +1,127 @@
+{% extends 'web/partials/base.html' %}
+{% load static %}
+{% block content %}
+
+<main class="creasoft-wrap">
+
+        
+
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-wrapper">
+                        <div class="breadcrumb-cnt">
+                            <h1>Project</h1>
+                            <span><a href="/">Home</a><i class="bi bi-arrow-right"></i>Project</span>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="project-area sec-mar">
+        <div class="container">
+            <div class="title-wrap">
+                <div class="sec-title">
+                    <span>Case Study</span>
+                    <h2>Project</h2>
+                    <p>Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla porttitor. on Duis a
+                        orci nunc. Suspendisse ac convallis sapien, quis commodo libero.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="isotope-menu">
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".ui">UI/UX</li>
+                        <li data-filter=".web">Web Design</li>
+                        <li data-filter=".developing">Developing</li>
+                        <li data-filter=".graphic">Graphic Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 project-items">
+                <div class="col-md-6 col-lg-4 single-item graphic ui">
+                    <div class="item-img">
+                        <a href=""><img src="{% static 'web/img/project/project-1.jpg' %}" alt=""></a>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 col-lg-4 single-item developing web">
+                    <div class="item-img">
+                        <a href=""><img src="{% static 'web/img/project/project-2.jpg' %}" alt=""></a>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4 single-item developing">
+                    <div class="item-img">
+                        <a href=""><img src="{% static 'web/img/project/project-3.jpg' %}" alt=""></a>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 col-lg-4 single-item graphic">
+                    <div class="item-img">
+                        <a href=""><img src="{% static 'web/img/project/project-4.jpg' %}" alt=""></a>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 col-lg-4 single-item ui">
+                    <div class="item-img">
+                        <a href=""><img src="{% static 'web/img/project/project-5.jpg' %}" alt=""></a>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 col-lg-4 single-item web">
+                    <div class="item-img">
+                        <a href=""><img src="{% static 'web/img/project/project-6.jpg' %}" alt=""></a>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 col-lg-4 single-item developping">
+                    <div class="item-img">
+                        <a href=""><img src="{% static 'web/img/project/project-7.jpg' %}" alt=""></a>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 col-lg-4 single-item ui">
+                    <div class="item-img">
+                        <a href=""><img src="{% static 'web/img/project/project-8.jpg' %}" alt=""></a>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4 single-item developing">
+                    <div class="item-img">
+                        <a href=""><img src="{% static 'web/img/project/project-9.jpg' %}" alt=""></a>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4 single-item web">
+                    <div class="item-img">
+                        <a href=""><img src="{% static 'web/img/project/project-10.jpg' %}" alt=""></a>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4 single-item graphic">
+                    <div class="item-img">
+                        <a href=""><img src="{% static 'web/img/project/project-11.jpg' %}" alt=""></a>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 col-lg-4 single-item ui">
+                    <div class="item-img">
+                        <a href=""><img src="{% static 'web/img/project/project-12.jpg' %}" alt=""></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    {% include 'web/partials/footer.html' %}
+
+</main>
+{% endblock %}
