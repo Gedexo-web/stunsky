@@ -3422,7 +3422,7 @@ footer.error {
 .office-mail p,
 .address p {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 14px;
     letter-spacing: .03em;
     color: #e4e4e4;
     margin: 0
@@ -3440,7 +3440,7 @@ footer.error {
 .phone a,
 .email a {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 14px;
     letter-spacing: .03em;
     color: #e4e4e4;
     display: block;
@@ -3856,15 +3856,15 @@ footer.error {
 }
 
 .single-info .icon i {
-    height: 80px;
-    width: 80px;
-    line-height: 80px;
-    font-size: 30px;
+    height: 64px;
+    width: 60px;
+    line-height: 65px;
+    font-size: 18px;
     text-align: center;
     background-color: rgba(23, 22, 26, .1);
     border-radius: 50%;
     -webkit-transition: all .5s ease-out 0s;
-    transition: all .5s ease-out 0s
+    transition: all .5s ease-out 0s;
 }
 
 .single-info:hover .icon i {
@@ -3873,7 +3873,7 @@ footer.error {
 }
 
 .info h3 {
-    font-size: 30px;
+    font-size: 21px;
     font-weight: 600;
     color: #17161a;
     text-transform: capitalize;
